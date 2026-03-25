@@ -105,9 +105,3 @@ Generated artifacts:
 ]
 ```
 
-## Security / Public Repo Tips
-
-- Never hardcode API keys in scripts.
-- Use environment variables (for example `GOOGLE_TRANSLATE_API_KEY`).
-- Add generated outputs (`*.txt`, `*.json`, `*.csv`, logs, transcripts) to `.gitignore` if needed.
-- Rotate any key that was ever shared in chat, screenshots, or commit history.
