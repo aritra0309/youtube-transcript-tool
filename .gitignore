@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+
+# Generated transcript outputs
+*_transcript.txt
+*_transcript_en.txt
+
+# Generated QA/evaluation artifacts
+qa_pairs.json
+qa_evidence.json
+retrieval_checks.csv
+method_log.txt
+RAG_Evaluation_Submission.*
